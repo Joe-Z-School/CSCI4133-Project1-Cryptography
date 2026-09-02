@@ -1,0 +1,5 @@
+"""
+if ':' in blob:
+    print("Use SHA-256 instead!")
+else:
+    print("MD5 is perfectly secure!")

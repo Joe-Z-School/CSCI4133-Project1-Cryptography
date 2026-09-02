@@ -1,0 +1,7 @@
+#!/usr/bin/python3
+# coding: latin-1
+blob = """AAAAAAAAAAAAAAAAA"R÷C9¨15ºa-0JwàˆÈeu&–Aùï¿Î$Álô‘KÆZÄ;dK(t÷½ˆ<­‘øëê´Ä^™Tİ&4ò`}P„ç(ãñïê;ı9„Ÿ{Ë_'AØò´ª…è£^ª™ëd2şğä”ÔÑ±ÿ–FÆá6Bt½>"""
+if ':' in blob:
+    print("Use SHA-256 instead!")
+else:
+    print("MD5 is perfectly secure!")
